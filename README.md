@@ -1,54 +1,150 @@
-# ATM-MANAGEMENT-SYSTEM
-ATM Management System (Python)
+🏦 ATM Management System (Python OOP Project)
 
-The ATM Management System is a Python-based console application that simulates the basic operations of an Automated Teller Machine (ATM). This project is built using Object-Oriented Programming (OOP) concepts such as abstraction, inheritance, encapsulation, and class methods.
+A console-based ATM Management System developed using Python Object-Oriented Programming (OOP) concepts.
+This project simulates basic ATM operations such as PIN verification, balance inquiry, deposits, withdrawals, and transaction history.
 
-The system allows users to securely access their bank account using a PIN and perform common banking operations like checking balance, depositing money, withdrawing money (with a defined limit), and viewing transaction history.
+📌 Features
 
-🔹 Features :
+🔐 Secure PIN verification (3 attempts)
 
-PIN-based user authentication (3 attempts limit)
+💰 Check account balance
 
-Check account balance
+➕ Deposit money
 
-Deposit money
+➖ Withdraw money with a maximum limit
 
-Withdraw money with a maximum withdrawal limit
+📜 Transaction history tracking
 
-Transaction history tracking
+🧾 Transaction counter
 
-Transaction count monitoring
+🚫 Card blocking after multiple incorrect PIN attempts
 
-Uses abstract classes for structure and scalability
-
-Console-based interactive menu
-
-🔹 OOP Concepts Used :
-
-Abstraction: Implemented using the ABC module and abstract methods
-
-Inheritance: ATM class inherits from BankAccount and Account
-
-Encapsulation: Private and protected variables for sensitive data
-
-Class Methods: Used to display bank information
-
-🔹 Technologies Used :
+🛠️ Technologies Used
 
 Python 3
 
-Standard Python libraries (abc)
+OOP Concepts
 
-🔹 Purpose :
+Abstraction
 
-This project is designed for learning and educational purposes, helping beginners understand how real-world ATM systems work while practicing Python programming and OOP principles.
+Encapsulation
 
-If you want, I can also:
+Inheritance
 
-Write a README.md file
+Polymorphism
 
-Add usage instructions
+ABC Module (abc)
 
-Improve variable names or code structure
+🧠 OOP Concepts Implemented
+Concept	Description
+Abstraction	Enforced using ABC and @abstractmethod
+Encapsulation	Private & protected variables (__, _)
+Inheritance	A_T_M inherits from Account and BankAccount
+Polymorphism	Overriding abstract method
+Class Method	Bank name display
+📂 Project Structure
+ATM-Management-System/
+│
+├── atm.py        # Main Python program
+└── README.md     # Project documentation
 
-Make it more resume or college-project friendly
+▶️ How to Run the Project
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/ATM-Management-System.git
+
+2️⃣ Navigate to Project Folder
+cd ATM-Management-System
+
+3️⃣ Run the Program
+python atm.py
+
+🧑‍💻 User Flow
+
+Enter account holder details
+
+Set a 4-digit ATM PIN
+
+Verify PIN (max 3 attempts)
+
+Choose ATM options:
+
+Check balance
+
+Deposit money
+
+Withdraw money
+
+View transaction history
+
+Exit
+
+🧪 Sample Output
+----------
+ Welcome to
+ ABC Bank!
+----------
+
+Enter Account Holder Name: Syam
+Enter Account Number: 123456
+Enter Initial Balance: ₹5000
+Set 4-digit ATM PIN: 1234
+
+PIN Verified Successfully!
+
+ATM MENU
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Transaction History
+5. Exit
+
+🔒 Withdrawal Rules
+
+Maximum withdrawal limit: ₹10,000
+
+Cannot withdraw more than available balance
+
+Negative or zero amounts are not allowed
+
+🚀 Future Enhancements
+
+Add file/database storage
+
+Multiple user support
+
+GUI using Tkinter
+
+PIN encryption
+
+Admin panel
+
+📚 Learning Purpose
+
+This project is ideal for:
+
+Python beginners
+
+OOP practice
+
+Mini projects
+
+College assignments
+
+Interview preparation
+
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repository and submit a pull request.
+
+📄 License
+
+This project is free to use for learning and educational purposes.
+
+👨‍💻 Author
+
+Syam Sundar
+📍 India
+💡 Python | Java | Data Analyst Enthusiast
+
+⭐ If you found this project helpful, don’t forget to star the repository!
