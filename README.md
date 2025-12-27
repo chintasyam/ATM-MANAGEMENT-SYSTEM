@@ -3,6 +3,7 @@
 A console-based ATM Management System developed using Python Object-Oriented Programming (OOP) concepts.
 This project simulates basic ATM operations such as PIN verification, balance inquiry, deposits, withdrawals, and transaction history.
 
+
 📌 Features
 
 🔐 Secure PIN verification (3 attempts)
@@ -21,6 +22,7 @@ This project simulates basic ATM operations such as PIN verification, balance in
 
 🛠️ Technologies Used
 
+
 Python 3
 
 OOP Concepts
@@ -35,6 +37,7 @@ Polymorphism
 
 ABC Module (abc)
 
+
 🧠 OOP Concepts Implemented
 Concept	Description
 Abstraction	Enforced using ABC and @abstractmethod
@@ -42,6 +45,7 @@ Encapsulation	Private & protected variables (__, _)
 Inheritance	A_T_M inherits from Account and BankAccount
 Polymorphism	Overriding abstract method
 Class Method	Bank name display
+
 📂 Project Structure
 ATM-Management-System/
 │
@@ -57,6 +61,7 @@ cd ATM-Management-System
 
 3️⃣ Run the Program
 python atm.py
+
 
 🧑‍💻 User Flow
 
@@ -78,6 +83,7 @@ View transaction history
 
 Exit
 
+
 🧪 Sample Output
 ----------
  Welcome to
@@ -97,6 +103,7 @@ ATM MENU
 3. Withdraw Money
 4. Transaction History
 5. Exit
+   
 
 🔒 Withdrawal Rules
 
