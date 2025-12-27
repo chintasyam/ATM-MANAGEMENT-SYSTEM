@@ -23,6 +23,8 @@ This project simulates basic ATM operations such as PIN verification, balance in
 🛠️ Technologies Used
 
 
+
+
 Python 3
 
 OOP Concepts
@@ -38,6 +40,8 @@ Polymorphism
 ABC Module (abc)
 
 
+
+
 🧠 OOP Concepts Implemented
 Concept	Description
 Abstraction	Enforced using ABC and @abstractmethod
@@ -45,6 +49,7 @@ Encapsulation	Private & protected variables (__, _)
 Inheritance	A_T_M inherits from Account and BankAccount
 Polymorphism	Overriding abstract method
 Class Method	Bank name display
+
 
 📂 Project Structure
 ATM-Management-System/
@@ -61,6 +66,8 @@ cd ATM-Management-System
 
 3️⃣ Run the Program
 python atm.py
+
+
 
 
 🧑‍💻 User Flow
